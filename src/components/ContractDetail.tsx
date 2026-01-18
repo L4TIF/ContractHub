@@ -79,7 +79,7 @@ export function ContractDetail() {
 
   const handleAdvanceStatus = () => {
     if (advanceContractStatus(contract.id)) {
-      toast.success(`Contract ${statusActions[contract.status].toLowerCase()}d!`);
+      toast.success(`Contract ${statusActions[contract.status].toLowerCase()}!`);
     }
   };
 
